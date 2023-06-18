@@ -1,1 +1,66 @@
-﻿<h2>Blog Arama</h2>
+﻿@*<h2>Blog Arama</h2>*@
+
+@{
+	Layout = null;
+}
+
+
+	@Html.Partial("PartialHeaderSaf")
+
+<div style="margin:15px 55px;" class="row">
+
+	<div class="col-lg-4 col-md-4">
+		<article class="post-grid mb-5">
+			<a class="post-thumb mb-4 d-block" href="blog-single.html">
+				<img src="~/images/news/f7.jpg" alt="" class="img-fluid w-100">
+			</a>
+			<span class=" cat-name text-color font-sm font-extra text-uppercase letter-spacing">music</span>
+			<h3 class="post-title mt-1"><a href="blog-single.html">Hey Douglas - Deterjan</a></h3>
+			<span class="text-muted letter-spacing text-uppercase font-sm">September 15, 2019</span>
+		</article>
+	</div>
+	<div class="col-lg-4 col-md-4">
+		<article class="post-grid mb-5">
+			<a class="post-thumb mb-4 d-block" href="blog-single.html">
+				<img src="~/images/news/f8.jpg" alt="" class="img-fluid w-100">
+			</a>
+			<span class="cat-name text-color font-sm font-extra text-uppercase letter-spacing">beauty</span>
+			<h3 class="post-title mt-1"><a href="blog-single.html">The best soft Tropical Getaway</a></h3>
+			<span class="text-muted letter-spacing text-uppercase font-sm">March 12, 2019</span>
+		</article>
+	</div>
+	<div class="col-lg-4 col-md-4">
+		<article class="post-grid mb-5">
+			<a class="post-thumb mb-4 d-block" href="blog-single.html">
+				<img src="~/images/news/f7.jpg" alt="" class="img-fluid w-100">
+			</a>
+			<span class=" cat-name text-color font-sm font-extra text-uppercase letter-spacing">music</span>
+			<h3 class="post-title mt-1"><a href="blog-single.html">Hey Douglas - Ölem Ben</a></h3>
+			<span class="text-muted letter-spacing text-uppercase font-sm">September 15, 2019</span>
+		</article>
+	</div>
+</div>
+	
+
+	@Html.Partial("PartialFooterSaf")
+
+	<!-- THEME JAVASCRIPT FILES
+	================================================== -->
+	<!-- initialize jQuery Library -->
+	<script src="~/plugins/jquery/jquery.js"></script>
+	<!-- Bootstrap jQuery -->
+	<script src="~/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="~/plugins/bootstrap/js/popper.min.js"></script>
+	<!-- Owl caeousel -->
+	<script src="~/plugins/owl-carousel/owl.carousel.min.js"></script>
+	<script src="~/plugins/slick-carousel/slick.min.js"></script>
+	<script src="~/plugins/magnific-popup/magnific-popup.js"></script>
+	<!-- Instagram Feed Js -->
+	<script src="~/plugins/instafeed-js/instafeed.min.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
+	<script src="~/plugins/google-map/gmap.js"></script>
+	<!-- main js -->
+	<script src="~/js/custom.js"></script>
+
+</html>
