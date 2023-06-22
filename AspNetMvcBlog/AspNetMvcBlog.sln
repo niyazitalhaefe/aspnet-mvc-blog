@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Web.Mvc", "App.Web.Mvc\App.Web.Mvc.csproj", "{12042B64-482C-4ED9-9B66-6B3165D62557}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Web.Mvc", "App.Web.Mvc\App.Web.Mvc.csproj", "{12042B64-482C-4ED9-9B66-6B3165D62557}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcEticaret", "MvcEticaret\MvcEticaret.csproj", "{75A4A4A1-3E25-42DB-99D3-FC56945AEFD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{12042B64-482C-4ED9-9B66-6B3165D62557}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12042B64-482C-4ED9-9B66-6B3165D62557}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12042B64-482C-4ED9-9B66-6B3165D62557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A4A4A1-3E25-42DB-99D3-FC56945AEFD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A4A4A1-3E25-42DB-99D3-FC56945AEFD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A4A4A1-3E25-42DB-99D3-FC56945AEFD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A4A4A1-3E25-42DB-99D3-FC56945AEFD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
