@@ -6,6 +6,7 @@ namespace App.Web.Mvc.Controllers
     {
         public IActionResult Register()
         {
+
             return View();
         }
         public IActionResult Login(string redirectUrl)
